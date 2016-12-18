@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="75c1d07b-a3b5-4657-b245-23396cad0c20" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:10001/QuestionService" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="QuestionService.xsd" MetadataType="Schema" ID="f0c11ed9-4dc9-4e9f-ab9d-455ba9b109b3" SourceId="1" SourceUrl="http://localhost:10001/QuestionService?xsd=xsd0" />
+    <MetadataFile FileName="QuestionService.wsdl" MetadataType="Wsdl" ID="56b2ed22-d1fc-4a61-b3a8-b371949f5e52" SourceId="1" SourceUrl="http://localhost:10001/QuestionService?wsdl" />
+    <MetadataFile FileName="QuestionService1.xsd" MetadataType="Schema" ID="1305f22d-3ae6-43a9-8352-a1cf1695a5c2" SourceId="1" SourceUrl="http://localhost:10001/QuestionService?xsd=xsd1" />
+    <MetadataFile FileName="QuestionService.disco" MetadataType="Disco" ID="5050bc55-f3c8-4aa3-a01d-197ef431e50a" SourceId="1" SourceUrl="http://localhost:10001/QuestionService?disco" />
+    <MetadataFile FileName="QuestionService2.xsd" MetadataType="Schema" ID="f22f38f9-4aa1-4ec7-aab0-716ff7442324" SourceId="1" SourceUrl="http://localhost:10001/QuestionService?xsd=xsd3" />
+    <MetadataFile FileName="QuestionDS.xsd" MetadataType="Schema" ID="0dcd3f1f-885a-4ebf-a223-412328d7cc99" SourceId="1" SourceUrl="http://localhost:10001/QuestionService?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

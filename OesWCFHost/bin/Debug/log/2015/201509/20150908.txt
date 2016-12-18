@@ -1,0 +1,80 @@
+
+ 
+记录时间：2015-09-08 22:03:31,372 
+线程ID:[4940] 
+日志级别：  INFO  
+出错类：OesLogic.UserManager property: [(null)] - 
+错误描述：Validate login
+ 
+
+ 
+记录时间：2015-09-08 22:03:31,388 
+线程ID:[4940] 
+日志级别：  INFO  
+出错类：OesLogic.UserManager property: [(null)] - 
+错误描述：validate
+ 
+
+ 
+记录时间：2015-09-08 22:05:22,615 
+线程ID:[344] 
+日志级别：  INFO  
+出错类：OesLogic.UserManager property: [(null)] - 
+错误描述：Validate login
+ 
+
+ 
+记录时间：2015-09-08 22:08:25,279 
+线程ID:[172] 
+日志级别：  INFO  
+出错类：OesLogic.UserManager property: [(null)] - 
+错误描述：Validate login
+ 
+
+ 
+记录时间：2015-09-08 22:08:40,624 
+线程ID:[172] 
+日志级别：  INFO  
+出错类：OesLogic.UserManager property: [(null)] - 
+错误描述：Validate login
+ 
+
+ 
+记录时间：2015-09-08 22:13:36,847 
+线程ID:[2460] 
+日志级别：  INFO  
+出错类：OesLogic.UserManager property: [(null)] - 
+错误描述：Validate login
+ 
+
+ 
+记录时间：2015-09-08 22:13:51,800 
+线程ID:[172] 
+日志级别：  INFO  
+出错类：OesLogic.UserManager property: [(null)] - 
+错误描述：Validate login
+ 
+
+ 
+记录时间：2015-09-08 22:14:37,160 
+线程ID:[2460] 
+日志级别：  INFO  
+出错类：OesLogic.UserManager property: [(null)] - 
+错误描述：Validate login
+ 
+
+ 
+记录时间：2015-09-08 22:15:53,816 
+线程ID:[4724] 
+日志级别：  INFO  
+出错类：OesLogic.UserManager property: [(null)] - 
+错误描述：Validate login
+ 
+
+ 
+记录时间：2015-09-08 22:16:11,550 
+线程ID:[3464] 
+日志级别：  INFO  
+出错类：OesLogic.UserManager property: [(null)] - 
+错误描述：Validate login
+ 

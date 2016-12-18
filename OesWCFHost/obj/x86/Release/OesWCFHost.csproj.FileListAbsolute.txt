@@ -1,0 +1,1 @@
+C:\Documents and Settings\mario.li\My Documents\Visual Studio 2010\Projects\OesWCFHost\OesClient\OesWCFHost\bin\Release\OesWCFHost.exe.config

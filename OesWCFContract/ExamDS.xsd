@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ExamDS" targetNamespace="http://tempuri.org/ExamDS.xsd" xmlns:mstns="http://tempuri.org/ExamDS.xsd" xmlns="http://tempuri.org/ExamDS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="oesConnectionString" IsAppSettingsProperty="true" Modifier="Assembly" Name="oesConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.OesDAL.Properties.Settings.GlobalReference.Default.oesConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ExamDS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="ExamDS" msprop:Generator_UserDSName="ExamDS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="exam" msprop:Generator_TableClassName="examDataTable" msprop:Generator_TableVarName="tableexam" msprop:Generator_TablePropName="exam" msprop:Generator_RowDeletingName="examRowDeleting" msprop:Generator_UserTableName="exam" msprop:Generator_RowChangingName="examRowChanging" msprop:Generator_RowEvHandlerName="examRowChangeEventHandler" msprop:Generator_RowDeletedName="examRowDeleted" msprop:Generator_RowEvArgName="examRowChangeEvent" msprop:Generator_RowChangedName="examRowChanged" msprop:Generator_RowClassName="examRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:int" />
+              <xs:element name="exam_name" msprop:Generator_ColumnVarNameInTable="columnexam_name" msprop:Generator_ColumnPropNameInRow="exam_name" msprop:Generator_ColumnPropNameInTable="exam_nameColumn" msprop:Generator_UserColumnName="exam_name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="exam_description" msprop:Generator_ColumnVarNameInTable="columnexam_description" msprop:Generator_ColumnPropNameInRow="exam_description" msprop:Generator_ColumnPropNameInTable="exam_descriptionColumn" msprop:Generator_UserColumnName="exam_description" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="single_question_score" msprop:Generator_ColumnVarNameInTable="columnsingle_question_score" msprop:Generator_ColumnPropNameInRow="single_question_score" msprop:Generator_ColumnPropNameInTable="single_question_scoreColumn" msprop:Generator_UserColumnName="single_question_score" type="xs:double" />
+              <xs:element name="question_quantity" msprop:Generator_ColumnVarNameInTable="columnquestion_quantity" msprop:Generator_ColumnPropNameInRow="question_quantity" msprop:Generator_ColumnPropNameInTable="question_quantityColumn" msprop:Generator_UserColumnName="question_quantity" type="xs:int" />
+              <xs:element name="duration" msprop:Generator_ColumnVarNameInTable="columnduration" msprop:Generator_ColumnPropNameInRow="duration" msprop:Generator_ColumnPropNameInTable="durationColumn" msprop:Generator_UserColumnName="duration" type="xs:int" />
+              <xs:element name="total_score" msprop:Generator_ColumnVarNameInTable="columntotal_score" msprop:Generator_ColumnPropNameInRow="total_score" msprop:Generator_ColumnPropNameInTable="total_scoreColumn" msprop:Generator_UserColumnName="total_score" type="xs:double" />
+              <xs:element name="effective_time" msprop:Generator_ColumnVarNameInTable="columneffective_time" msprop:Generator_ColumnPropNameInRow="effective_time" msprop:Generator_ColumnPropNameInTable="effective_timeColumn" msprop:Generator_UserColumnName="effective_time" type="xs:dateTime" />
+              <xs:element name="create_time" msprop:Generator_ColumnVarNameInTable="columncreate_time" msprop:Generator_ColumnPropNameInRow="create_time" msprop:Generator_ColumnPropNameInTable="create_timeColumn" msprop:Generator_UserColumnName="create_time" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="update_time" msprop:Generator_ColumnVarNameInTable="columnupdate_time" msprop:Generator_ColumnPropNameInRow="update_time" msprop:Generator_ColumnPropNameInTable="update_timeColumn" msprop:Generator_UserColumnName="update_time" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="is_finished" msprop:Generator_ColumnVarNameInTable="columnis_finished" msprop:Generator_ColumnPropNameInRow="is_finished" msprop:Generator_ColumnPropNameInTable="is_finishedColumn" msprop:Generator_UserColumnName="is_finished" type="xs:int" />
+              <xs:element name="creator" msprop:Generator_ColumnVarNameInTable="columncreator" msprop:Generator_ColumnPropNameInRow="creator" msprop:Generator_ColumnPropNameInTable="creatorColumn" msprop:Generator_UserColumnName="creator">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="pass_criteria" msprop:Generator_ColumnVarNameInTable="columnpass_criteria" msprop:Generator_ColumnPropNameInRow="pass_criteria" msprop:Generator_ColumnPropNameInTable="pass_criteriaColumn" msprop:Generator_UserColumnName="pass_criteria" type="xs:double" />
+              <xs:element name="is_draft" msprop:Generator_ColumnVarNameInTable="columnis_draft" msprop:Generator_ColumnPropNameInRow="is_draft" msprop:Generator_ColumnPropNameInTable="is_draftColumn" msprop:Generator_UserColumnName="is_draft" type="xs:int" />
+              <xs:element name="is_deleted" msprop:Generator_ColumnVarNameInTable="columnis_deleted" msprop:Generator_ColumnPropNameInRow="is_deleted" msprop:Generator_ColumnPropNameInTable="is_deletedColumn" msprop:Generator_UserColumnName="is_deleted" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="user_exam" msprop:Generator_TableClassName="user_examDataTable" msprop:Generator_TableVarName="tableuser_exam" msprop:Generator_TablePropName="user_exam" msprop:Generator_RowDeletingName="user_examRowDeleting" msprop:Generator_UserTableName="user_exam" msprop:Generator_RowChangingName="user_examRowChanging" msprop:Generator_RowEvHandlerName="user_examRowChangeEventHandler" msprop:Generator_RowDeletedName="user_examRowDeleted" msprop:Generator_RowEvArgName="user_examRowChangeEvent" msprop:Generator_RowChangedName="user_examRowChanged" msprop:Generator_RowClassName="user_examRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:int" />
+              <xs:element name="userId" msprop:Generator_ColumnVarNameInTable="columnuserId" msprop:Generator_ColumnPropNameInRow="userId" msprop:Generator_ColumnPropNameInTable="userIdColumn" msprop:Generator_UserColumnName="userId" type="xs:int" />
+              <xs:element name="examId" msprop:Generator_ColumnVarNameInTable="columnexamId" msprop:Generator_ColumnPropNameInRow="examId" msprop:Generator_ColumnPropNameInTable="examIdColumn" msprop:Generator_UserColumnName="examId" type="xs:int" />
+              <xs:element name="score" msprop:Generator_ColumnVarNameInTable="columnscore" msprop:Generator_ColumnPropNameInRow="score" msprop:Generator_ColumnPropNameInTable="scoreColumn" msprop:Generator_UserColumnName="score" type="xs:int" />
+              <xs:element name="is_pass" msprop:Generator_ColumnVarNameInTable="columnis_pass" msprop:Generator_ColumnPropNameInRow="is_pass" msprop:Generator_ColumnPropNameInTable="is_passColumn" msprop:Generator_UserColumnName="is_pass">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ExamNotice" msprop:Generator_TableClassName="ExamNoticeDataTable" msprop:Generator_TableVarName="tableExamNotice" msprop:Generator_TablePropName="ExamNotice" msprop:Generator_RowDeletingName="ExamNoticeRowDeleting" msprop:Generator_UserTableName="ExamNotice" msprop:Generator_RowChangingName="ExamNoticeRowChanging" msprop:Generator_RowEvHandlerName="ExamNoticeRowChangeEventHandler" msprop:Generator_RowDeletedName="ExamNoticeRowDeleted" msprop:Generator_RowEvArgName="ExamNoticeRowChangeEvent" msprop:Generator_RowChangedName="ExamNoticeRowChanged" msprop:Generator_RowClassName="ExamNoticeRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="exam_name" msprop:Generator_ColumnVarNameInTable="columnexam_name" msprop:Generator_ColumnPropNameInRow="exam_name" msprop:Generator_ColumnPropNameInTable="exam_nameColumn" msprop:Generator_UserColumnName="exam_name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="effective_time" msprop:Generator_ColumnVarNameInTable="columneffective_time" msprop:Generator_ColumnPropNameInRow="effective_time" msprop:Generator_ColumnPropNameInTable="effective_timeColumn" msprop:Generator_UserColumnName="effective_time" type="xs:dateTime" />
+              <xs:element name="No" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnNo" msprop:Generator_ColumnPropNameInRow="No" msprop:Generator_ColumnPropNameInTable="NoColumn" msprop:Generator_UserColumnName="No" type="xs:long" minOccurs="0" />
+              <xs:element name="id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="UserExam" msprop:Generator_TableClassName="UserExamDataTable" msprop:Generator_TableVarName="tableUserExam" msprop:Generator_TablePropName="UserExam" msprop:Generator_RowDeletingName="UserExamRowDeleting" msprop:Generator_UserTableName="UserExam" msprop:Generator_RowChangingName="UserExamRowChanging" msprop:Generator_RowEvHandlerName="UserExamRowChangeEventHandler" msprop:Generator_RowDeletedName="UserExamRowDeleted" msprop:Generator_RowEvArgName="UserExamRowChangeEvent" msprop:Generator_RowChangedName="UserExamRowChanged" msprop:Generator_RowClassName="UserExamRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="count" msdata:ReadOnly="true" msdata:Caption="Column1" msprop:Generator_ColumnVarNameInTable="columncount" msprop:Generator_ColumnPropNameInRow="count" msprop:Generator_ColumnPropNameInTable="countColumn" msprop:Generator_UserColumnName="count" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="exam_exception" msprop:Generator_TableClassName="exam_exceptionDataTable" msprop:Generator_TableVarName="tableexam_exception" msprop:Generator_TablePropName="exam_exception" msprop:Generator_RowDeletingName="exam_exceptionRowDeleting" msprop:Generator_UserTableName="exam_exception" msprop:Generator_RowChangingName="exam_exceptionRowChanging" msprop:Generator_RowEvHandlerName="exam_exceptionRowChangeEventHandler" msprop:Generator_RowDeletedName="exam_exceptionRowDeleted" msprop:Generator_RowEvArgName="exam_exceptionRowChangeEvent" msprop:Generator_RowChangedName="exam_exceptionRowChanged" msprop:Generator_RowClassName="exam_exceptionRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:int" />
+              <xs:element name="user_id" msprop:Generator_ColumnVarNameInTable="columnuser_id" msprop:Generator_ColumnPropNameInRow="user_id" msprop:Generator_ColumnPropNameInTable="user_idColumn" msprop:Generator_UserColumnName="user_id" type="xs:int" />
+              <xs:element name="exam_id" msprop:Generator_ColumnVarNameInTable="columnexam_id" msprop:Generator_ColumnPropNameInRow="exam_id" msprop:Generator_ColumnPropNameInTable="exam_idColumn" msprop:Generator_UserColumnName="exam_id" type="xs:int" />
+              <xs:element name="occur_time" msprop:Generator_ColumnVarNameInTable="columnoccur_time" msprop:Generator_ColumnPropNameInRow="occur_time" msprop:Generator_ColumnPropNameInTable="occur_timeColumn" msprop:Generator_UserColumnName="occur_time" type="xs:dateTime" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:exam" />
+      <xs:field xpath="mstns:id" />
+    </xs:unique>
+    <xs:unique name="user_exam_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:user_exam" />
+      <xs:field xpath="mstns:id" />
+    </xs:unique>
+    <xs:unique name="ExamNotice_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:ExamNotice" />
+      <xs:field xpath="mstns:id" />
+    </xs:unique>
+    <xs:unique name="exam_exception_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:exam_exception" />
+      <xs:field xpath="mstns:id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

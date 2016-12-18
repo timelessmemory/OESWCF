@@ -1,0 +1,10 @@
+C:\Documents and Settings\mario.li\My Documents\Visual Studio 2010\Projects\OesClient\OesWCFContract\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\mario.li\My Documents\Visual Studio 2010\Projects\OesClient\OesWCFContract\bin\Debug\OesWCFContract.dll
+C:\Documents and Settings\mario.li\My Documents\Visual Studio 2010\Projects\OesClient\OesWCFContract\bin\Debug\OesWCFContract.pdb
+C:\Documents and Settings\mario.li\My Documents\Visual Studio 2010\Projects\OesClient\OesWCFContract\obj\Debug\OesWCFContract.dll
+C:\Documents and Settings\mario.li\My Documents\Visual Studio 2010\Projects\OesClient\OesWCFContract\obj\Debug\OesWCFContract.pdb
+C:\Documents and Settings\mario.li\My Documents\Visual Studio 2010\Projects\OesWCFHost\OesClient\OesWCFContract\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\mario.li\My Documents\Visual Studio 2010\Projects\OesWCFHost\OesClient\OesWCFContract\bin\Debug\OesWCFContract.dll
+C:\Documents and Settings\mario.li\My Documents\Visual Studio 2010\Projects\OesWCFHost\OesClient\OesWCFContract\bin\Debug\OesWCFContract.pdb
+C:\Documents and Settings\mario.li\My Documents\Visual Studio 2010\Projects\OesWCFHost\OesClient\OesWCFContract\obj\Debug\OesWCFContract.dll
+C:\Documents and Settings\mario.li\My Documents\Visual Studio 2010\Projects\OesWCFHost\OesClient\OesWCFContract\obj\Debug\OesWCFContract.pdb

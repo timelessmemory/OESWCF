@@ -1,0 +1,12 @@
+c:\documents and settings\mario.li\my documents\visual studio 2010\Projects\OesClient\OesDAL\bin\Debug\OesDAL.pdb
+c:\documents and settings\mario.li\my documents\visual studio 2010\Projects\OesClient\OesDAL\obj\Debug\ResolveAssemblyReference.cache
+c:\documents and settings\mario.li\my documents\visual studio 2010\Projects\OesClient\OesDAL\obj\Debug\OesDAL.pdb
+C:\Documents and Settings\mario.li\My Documents\Visual Studio 2010\Projects\OesClient\OesDAL\bin\Debug\OesDAL.dll.config
+C:\Documents and Settings\mario.li\My Documents\Visual Studio 2010\Projects\OesClient\OesDAL\bin\Debug\OesDAL.dll
+C:\Documents and Settings\mario.li\My Documents\Visual Studio 2010\Projects\OesClient\OesDAL\obj\Debug\OesDAL.dll
+C:\Documents and Settings\mario.li\My Documents\Visual Studio 2010\Projects\OesWCFHost\OesClient\OesDAL\bin\Debug\OesDAL.dll.config
+C:\Documents and Settings\mario.li\My Documents\Visual Studio 2010\Projects\OesWCFHost\OesClient\OesDAL\bin\Debug\OesDAL.dll
+C:\Documents and Settings\mario.li\My Documents\Visual Studio 2010\Projects\OesWCFHost\OesClient\OesDAL\bin\Debug\OesDAL.pdb
+C:\Documents and Settings\mario.li\My Documents\Visual Studio 2010\Projects\OesWCFHost\OesClient\OesDAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\mario.li\My Documents\Visual Studio 2010\Projects\OesWCFHost\OesClient\OesDAL\obj\Debug\OesDAL.dll
+C:\Documents and Settings\mario.li\My Documents\Visual Studio 2010\Projects\OesWCFHost\OesClient\OesDAL\obj\Debug\OesDAL.pdb

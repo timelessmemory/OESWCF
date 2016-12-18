@@ -1,0 +1,16 @@
+C:\Documents and Settings\mario.li\My Documents\Visual Studio 2010\Projects\OesClient\OesUI.test\bin\Debug\OesUI.test.dll
+C:\Documents and Settings\mario.li\My Documents\Visual Studio 2010\Projects\OesClient\OesUI.test\bin\Debug\OesUI.test.pdb
+C:\Documents and Settings\mario.li\My Documents\Visual Studio 2010\Projects\OesClient\OesUI.test\bin\Debug\nunit.framework.dll
+C:\Documents and Settings\mario.li\My Documents\Visual Studio 2010\Projects\OesClient\OesUI.test\bin\Debug\nunit.mocks.dll
+C:\Documents and Settings\mario.li\My Documents\Visual Studio 2010\Projects\OesClient\OesUI.test\bin\Debug\nunit.framework.xml
+C:\Documents and Settings\mario.li\My Documents\Visual Studio 2010\Projects\OesClient\OesUI.test\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\mario.li\My Documents\Visual Studio 2010\Projects\OesClient\OesUI.test\obj\Debug\OesUI.test.dll
+C:\Documents and Settings\mario.li\My Documents\Visual Studio 2010\Projects\OesClient\OesUI.test\obj\Debug\OesUI.test.pdb
+C:\Documents and Settings\mario.li\My Documents\Visual Studio 2010\Projects\OesClient\OesUI.test\bin\Debug\OesDAL.dll
+C:\Documents and Settings\mario.li\My Documents\Visual Studio 2010\Projects\OesClient\OesUI.test\bin\Debug\OesLogic.dll
+C:\Documents and Settings\mario.li\My Documents\Visual Studio 2010\Projects\OesClient\OesUI.test\bin\Debug\OesUI.exe
+C:\Documents and Settings\mario.li\My Documents\Visual Studio 2010\Projects\OesClient\OesUI.test\bin\Debug\OesDAL.pdb
+C:\Documents and Settings\mario.li\My Documents\Visual Studio 2010\Projects\OesClient\OesUI.test\bin\Debug\OesLogic.pdb
+C:\Documents and Settings\mario.li\My Documents\Visual Studio 2010\Projects\OesClient\OesUI.test\bin\Debug\OesUI.pdb
+C:\Documents and Settings\mario.li\My Documents\Visual Studio 2010\Projects\OesClient\OesUI.test\bin\Debug\OesWCFContract.dll
+C:\Documents and Settings\mario.li\My Documents\Visual Studio 2010\Projects\OesClient\OesUI.test\bin\Debug\OesWCFContract.pdb

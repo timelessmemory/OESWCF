@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1053]OesUI</TopNode>
+  <SelectedNode>[0-1010]OesUI.test.UserManagerTest.TestVerifyUserLogin</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1052]C:\Documents and Settings\mario.li\My Documents\Visual Studio 2010\Projects\OesWCFHost\OesClient\OesUI.test\bin\Debug\OesUI.test.dll" Expanded="true" />
+    <Node UniqueName="[0-1053]OesUI" Expanded="true" />
+    <Node UniqueName="[0-1054]OesUI.test" Expanded="true" />
+    <Node UniqueName="[0-1022]OesUI.test.ExamManagerTest" Expanded="true" />
+    <Node UniqueName="[0-1041]OesUI.test.QuestionManagerTest" Expanded="true" />
+    <Node UniqueName="[0-1000]OesUI.test.TeacherExamListTest" Expanded="true" />
+    <Node UniqueName="[0-1005]OesUI.test.TeacherExamListTest.TestGetExamDetail" Expanded="true" />
+    <Node UniqueName="[0-1007]OesUI.test.TeacherExamListTest.TestGetExamDetailCount" Expanded="true" />
+    <Node UniqueName="[0-1001]OesUI.test.TeacherExamListTest.TestGetTeacherExamList" Expanded="true" />
+    <Node UniqueName="[0-1003]OesUI.test.TeacherExamListTest.TestGetTeacherExamListCount" Expanded="true" />
+    <Node UniqueName="[0-1009]OesUI.test.UserManagerTest" Expanded="true" />
+    <Node UniqueName="[0-1014]OesUI.test.UserManagerTest.TestGetUserInformation" Expanded="true" />
+    <Node UniqueName="[0-1012]OesUI.test.UserManagerTest.TestQueryUserIdByName" Expanded="true" />
+    <Node UniqueName="[0-1016]OesUI.test.UserManagerTest.TestUpdatePassword" Expanded="true" />
+    <Node UniqueName="[0-1018]OesUI.test.UserManagerTest.TestUpdatePhoto" Expanded="true" />
+    <Node UniqueName="[0-1020]OesUI.test.UserManagerTest.TestValidateUserAndEmail" Expanded="true" />
+    <Node UniqueName="[0-1010]OesUI.test.UserManagerTest.TestVerifyUserLogin" Expanded="true" />
+  </Nodes>
+</VisualState>
